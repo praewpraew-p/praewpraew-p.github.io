@@ -1,0 +1,47 @@
+body {
+    background-color: #8EC0E4;
+}
+
+.title {
+    display: block;
+    margin: 3px auto;
+}
+
+.boy {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: auto;
+}
+
+div {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.warn {
+    position: fixed;
+    width: 80px;
+    height: auto;
+    top: -100px;
+    left: 20px;
+}
+
+.doc {
+    position: fixed;
+    width: 80px;
+    height: auto;
+    top: -100px;
+    left: 150px;
+}
+
+.test {
+    position: fixed;
+    width: 70px;
+    height: auto;
+    top: -30px;
+    left: 90px;
+}
+

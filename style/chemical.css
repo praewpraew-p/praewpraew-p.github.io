@@ -1,0 +1,44 @@
+body {
+    background-color: #ebebeb;
+    
+}
+
+
+.ex {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+.a {
+    position: fixed;
+    width: 35%;
+    height: auto;
+    top: 280px;
+    left: 30px;
+}
+
+.d {
+    position: fixed;
+    width: 35%;
+    height: auto;
+    top: 285px;
+    left: 190px;
+}
+
+.h {
+    position: fixed;
+    width: 35%;
+    height: auto;
+    top: 450px;
+    left: 30px;
+}
+
+.v {
+    position: fixed;
+    width: 35%;
+    height: auto;
+    top: 450px;
+    left: 190px;
+}

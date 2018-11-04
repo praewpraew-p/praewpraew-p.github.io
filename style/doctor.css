@@ -1,0 +1,17 @@
+body {
+    background-color: #EFFFE9;
+}
+
+.title {
+    display: block;
+    margin: 8% auto;
+    width: 350px;
+    height: auto;
+}
+
+.ex {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+}
