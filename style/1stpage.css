@@ -21,7 +21,7 @@ div {
     width: 40%;
     height: auto;
     position: fixed;
-    top: 14%;
+    top: 12%;
     left: 20%;
 }
 
@@ -29,7 +29,7 @@ div {
     width: 38%;
     height: auto;
     position: fixed;
-    top: 24%;
+    top: 19%;
     left: 50%;
 }
 
@@ -37,7 +37,7 @@ div {
     width: 38%;
     height: auto;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 18%;
 }
 
@@ -45,6 +45,6 @@ div {
     width: 40%;
     height: auto;
     position: fixed;
-    top: 90%;
+    top: 85%;
     left: 5%;
 }
