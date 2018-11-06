@@ -14,37 +14,36 @@ div {
     margin: 0 auto;
     width: 100%;
     height: auto;
-
 }
 
 .pos1 {
     width: 40%;
     height: auto;
     position: absolute;
-    top: 80px;
-    left: 60px;
+    top: 17%;
+    left: 20%;
 }
 
 .pos2 {
     width: 38%;
     height: auto;
     position: absolute;
-    top: 160px;
-    left: 180px;
+    top: 29%;
+    left: 50%;
 }
 
 .pos3 {
     width: 38%;
     height: auto;
     position: absolute;
-    top: 335px;
-    left: 60px;
+    top: 56%;
+    left: 18%;
 }
 
 .pos4 {
     width: 40%;
     height: auto;
     position: absolute;
-    top: 600px;
-    left: 20px;
+    top: 97%;
+    left: 5%;
 }
