@@ -2,48 +2,43 @@ body {
     background-color: #8CD790;
 }
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .road {
     display: block;
     margin: 0 auto;
-    width: 370px;
+    width: 100%;
     height: auto;
+    margin-top: 10%;
 }
 
 .pos1 {
     width: 40%;
     height: auto;
-    position: fixed;
-    top: 10%;
+    position: absolute;
+    top: 17%;
     left: 20%;
 }
 
 .pos2 {
     width: 38%;
     height: auto;
-    position: fixed;
-    top: 22%;
+    position: absolute;
+    top: 29%;
     left: 50%;
 }
 
 .pos3 {
     width: 38%;
     height: auto;
-    position: fixed;
-    top: 40%;
-    left: 44%;
+    position: absolute;
+    top: 56%;
+    left: 18%;
 }
 
 .pos4 {
     width: 40%;
     height: auto;
-    position: fixed;
-    top: 84%;
+    position: absolute;
+    top: 97%;
     left: 5%;
 }

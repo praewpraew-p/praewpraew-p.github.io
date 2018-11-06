@@ -2,46 +2,35 @@ body {
     background-color: #8EC0E4;
 }
 
-.title {
-    display: block;
-    margin: 3px auto;
-}
-
 .boy {
     display: block;
-    margin: 10px auto;
-    width: 250px;
+    margin: 0 auto;
+    width: 100%;
     height: auto;
-}
-
-div {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .warn {
     position: absolute;
-    width: 80px;
+    width: 23%;
     height: auto;
-    top: -100px;
-    left: 20px;
+    top: 33%;
+    left: 10%;
 }
 
 .doc {
     position: absolute;
-    width: 80px;
+    width: 25%;
     height: auto;
-    top: -100px;
-    left: 150px;
+    top: 33%;
+    left: 39%;
 }
 
 .test {
     position: absolute;
-    width: 70px;
+    width: 18%;
     height: auto;
-    top: -30px;
-    left: 90px;
+    top: 35%;
+    left: 70%;
+}
 }
 

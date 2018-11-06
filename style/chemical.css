@@ -15,30 +15,30 @@ body {
     position: fixed;
     width: 35%;
     height: auto;
-    top: 280px;
-    left: 30px;
+    top: 40%;
+    left: 15%;
 }
 
 .d {
     position: fixed;
     width: 35%;
     height: auto;
-    top: 285px;
-    left: 190px;
+    top: 40%;
+    left: 50%;
 }
 
 .h {
     position: fixed;
     width: 35%;
     height: auto;
-    top: 450px;
-    left: 30px;
+    top: 65%;
+    left: 15%;
 }
 
 .v {
     position: fixed;
     width: 35%;
     height: auto;
-    top: 450px;
-    left: 190px;
+    top: 65%;
+    left: 50%;
 }

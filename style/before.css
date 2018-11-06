@@ -2,72 +2,57 @@ body {
     background-color: #FC9D9A;
 }
 
-.title {
-    display: block;
-    margin: 5% auto;
-    width: 60%;
-    height: auto;
-}
-
 .girls {
     display: block;
-    margin: 5% auto;
-    width: 150px;
+    margin: 0 auto;
+    width: 100%;
     height: auto;
-}
-
-.icon {
-    margin-top: 10%; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .teeth {
-    width: 50%;
+    width: 20%;
     height: auto;
-    position: fixed;
-    top: 5%;
-    left: -65%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
 .blood {
-    width: 50%;
+    width: 20%;
     height: auto;
-    position: fixed;
-    top: -45%;
-    left: 10%;
+    position: absolute;
+    top: 45%;
+    left: 8%;
 }
 
 .food {
-    width: 50%;
+    width: 17%;
     height: auto;
-    position: fixed;
-    top: -10%;
-    left: 110%;
+    position: absolute;
+    top: 45%;
+    left: 72%;
 }
 
 .sleep {
-    width: 47%;
+    width: 17%;
     height: auto;
-    position: fixed;
-    top: 70%;
-    left: -58%;
+    position: absolute;
+    top: 65%;
+    left: 12%;
 }
 
 .chemical {
-    width: 50%;
+    width: 17%;
     height: auto;
-    position: fixed;
-    top: 55%;
-    left: 100%;
+    position: absolute;
+    top: 65%;
+    left: 70%;
 }
 
 .test {
-    width: 50%;
+    width: 20%;
     height: auto;
-    position: fixed;
-    top: 115%;
-    left: 30%;
+    position: absolute;
+    top: 79%;
+    left: 40%;
 }

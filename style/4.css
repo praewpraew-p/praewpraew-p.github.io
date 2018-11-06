@@ -12,15 +12,22 @@ body {
 
 .ex1 {
     display: block;
-    margin: 3% auto;
-    width: 370px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.ex2 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
     height: auto;
 }
 
 .pic1 {
     display: block;
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
     height: auto;
     margin-bottom: 30px;
 }
