@@ -2,6 +2,11 @@ body {
     background-color: #8CD790;
 }
 
+div {
+    position: absolute;
+    display: inline;
+}
+
 
 .road {
     display: block;

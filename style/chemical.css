@@ -12,33 +12,33 @@ body {
 }
 
 .a {
-    position: fixed;
+    position: relative;
     width: 35%;
     height: auto;
-    top: 280px;
-    left: 30px;
+    top: 5%;
+    left: 12%;
 }
 
 .d {
-    position: fixed;
+    position: relative;
     width: 35%;
     height: auto;
-    top: 285px;
-    left: 190px;
+    top: 5%;
+    left: 18%;
 }
 
 .h {
-    position: fixed;
+    position: relative;
     width: 35%;
     height: auto;
-    top: 450px;
-    left: 30px;
+    top: 20%;
+    left: 12%;
 }
 
 .v {
-    position: fixed;
+    position: relative;
     width: 35%;
     height: auto;
-    top: 450px;
-    left: 190px;
+    top: 20%;
+    left: 18%;
 }
