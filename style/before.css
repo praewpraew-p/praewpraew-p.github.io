@@ -13,15 +13,16 @@ body {
     width: 20%;
     height: auto;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 40%;
 }
+
 
 .blood {
     width: 20%;
     height: auto;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 8%;
 }
 
@@ -29,7 +30,7 @@ body {
     width: 17%;
     height: auto;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 72%;
 }
 
@@ -37,7 +38,7 @@ body {
     width: 17%;
     height: auto;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 12%;
 }
 
@@ -45,7 +46,7 @@ body {
     width: 17%;
     height: auto;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 70%;
 }
 
@@ -53,6 +54,6 @@ body {
     width: 20%;
     height: auto;
     position: absolute;
-    top: 79%;
+    top: 89%;
     left: 40%;
 }
