@@ -20,7 +20,7 @@ div {
 .pos1 {
     width: 40%;
     height: auto;
-    position: fixed;
+    position: absolute;
     top: 80px;
     left: 60px;
 }
@@ -28,7 +28,7 @@ div {
 .pos2 {
     width: 38%;
     height: auto;
-    position: fixed;
+    position: absolute;
     top: 160px;
     left: 180px;
 }
@@ -36,7 +36,7 @@ div {
 .pos3 {
     width: 38%;
     height: auto;
-    position: fixed;
+    position: absolute;
     top: 335px;
     left: 60px;
 }
@@ -44,7 +44,7 @@ div {
 .pos4 {
     width: 40%;
     height: auto;
-    position: fixed;
+    position: absolute;
     top: 600px;
     left: 20px;
 }
