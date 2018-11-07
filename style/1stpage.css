@@ -1,0 +1,48 @@
+body {
+    background-color: #8CD790;
+}
+
+div {
+    position: absolute;
+    display: inline;
+}
+
+
+.road {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.pos1 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.pos2 {
+    width: 38%;
+    height: auto;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+}
+
+.pos3 {
+    width: 38%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+
+.pos4 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 89%;
+    left: 5%;
+}
