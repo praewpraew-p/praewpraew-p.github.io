@@ -2,7 +2,7 @@ body {
     background-color: #8CD790;
 }
 
-div {
+.design{
     position: absolute;
     display: inline;
 }
