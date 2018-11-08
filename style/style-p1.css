@@ -139,7 +139,7 @@ body {
     background-color: #379600;
     counter-increment: score;
     color: #fff;
-    width: 40px;
+    width: 20px;
     height: auto;
 }
 
@@ -153,7 +153,7 @@ body {
 .quiz input[id=no8].step8:checked~.container .q8 label.wrong {
     background-color: #cc2d2b;
     color: #fff;
-    width: 40px;
+    width: 20px;
     height: auto;
 }
 
@@ -191,11 +191,11 @@ body {
 }
 
 .true {
-    width: 25px;
+    width: 15px;
 }
 
 .false {
-    width: 25px;
+    width: 15px;
 }
 
 .score {
