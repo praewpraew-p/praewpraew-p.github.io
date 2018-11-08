@@ -172,7 +172,7 @@ body {
     font-size: 40px;
     color: #eb6e30;
     font-weight: 700;
-    text-shadow: 3px 1px 1px white, 5px 2px 0px black;
+    text-shadow: 3px 1px 0px white, 5px 2px 0px black;
 }
 
 #set-h3 {

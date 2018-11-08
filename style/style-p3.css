@@ -67,7 +67,7 @@ body {
 .quiz input.step45:checked~.container .congrats{
     display: block;
     position: fixed;
-    left: 50px;
+    left: 8px;
     bottom: 0;
 }
 
@@ -79,7 +79,6 @@ body {
 
 .quiz input.step45:checked~.container .q label {
     background-color: #e4e4e4;
-    padding: 30px;
 }
 
 .quiz input.step1:checked~.container .q1,
@@ -155,15 +154,17 @@ body {
 
 .quiz .congrats {
     display: none;
+    left: 0;
 }
 
 .quiz label {
     display: inline-block;
-    padding: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #ffab10;
     color: #fff;
-    margin: 0 40px;
+    margin: 0 25px;
     text-align: center;
     display: inline-block;
     transition: opacity .5s;
@@ -197,7 +198,7 @@ body {
 .heart-set, .sad-set {
     position: absolute;
     left: -100px;
-    top: 500px;
+    top: 50%;
     transition: left 1s;
 }
 
@@ -319,7 +320,7 @@ body {
     font-size: 40px;
     color: #eb6e30;
     font-weight: 700;
-    text-shadow: 3px 1px 1px white, 5px 2px 0px black;
+    text-shadow: 3px 1px 0px white, 5px 2px 0px black;
 }
 
 #set-h3 {
@@ -334,11 +335,17 @@ body {
 }
 
 .true {
+    vertical-align: middle;
+    margin-top: 17px;
     width: 15px;
+    height: 15px;
 }
 
 .false {
+    vertical-align: middle;
+    margin-top: 17px;
     width: 15px;
+    height: 15px;
 }
 
 .score {
