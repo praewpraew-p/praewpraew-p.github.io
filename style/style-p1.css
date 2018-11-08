@@ -42,7 +42,7 @@ body {
 
 .quiz input.step8:checked~.container .q label {
     background-color: #e4e4e4;
-    padding: 15px;
+    padding: 30px;
 }
 
 .quiz input.step1:checked~.container .q1,
@@ -86,11 +86,12 @@ body {
 
 .quiz label {
     display: inline-block;
-    padding: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: #ffab10;
     color: #fff;
-    margin: 0 40px;
+    margin: 0 25px;
     text-align: center;
     display: inline-block;
     transition: opacity .5s;
@@ -124,7 +125,7 @@ body {
 .heart-set, .sad-set {
     position: absolute;
     left: -100px;
-    top: 500px;
+    top: 50%;
     transition: left 1s;
 }
 
@@ -187,11 +188,15 @@ body {
 }
 
 .true {
+    display: block;
+margin: 0 auto;
     width: 15px;
+    height: 15px;
 }
 
 .false {
     width: 15px;
+    height: 15px;
 }
 
 .score {
