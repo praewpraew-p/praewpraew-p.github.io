@@ -42,7 +42,6 @@ body {
 
 .quiz input.step8:checked~.container .q label {
     background-color: #e4e4e4;
-    padding: 30px;
 }
 
 .quiz input.step1:checked~.container .q1,
@@ -86,8 +85,8 @@ body {
 
 .quiz label {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #ffab10;
     color: #fff;
@@ -188,13 +187,15 @@ body {
 }
 
 .true {
-    display: block;
-margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 17px;
     width: 15px;
     height: 15px;
 }
 
 .false {
+    vertical-align: middle;
+    margin-top: 17px;
     width: 15px;
     height: 15px;
 }
