@@ -81,6 +81,7 @@ body {
 
 .quiz .congrats {
     display: none;
+    float: left;
 }
 
 .quiz label {
