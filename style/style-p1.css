@@ -139,8 +139,6 @@ body {
     background-color: #379600;
     counter-increment: score;
     color: #fff;
-    width: 20px;
-    height: auto;
 }
 
 .quiz input[id=yes1].step1:checked~.container .q1 label.wrong,
@@ -153,8 +151,6 @@ body {
 .quiz input[id=no8].step8:checked~.container .q8 label.wrong {
     background-color: #cc2d2b;
     color: #fff;
-    width: 20px;
-    height: auto;
 }
 
 .set-h1 {
