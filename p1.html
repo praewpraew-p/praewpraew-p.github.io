@@ -98,22 +98,15 @@
     </div>
 
     <script>
-        document.getElementById('yes8').onclick = function resetPos() {
+        document.getElementById('yes8').onclick = function () {
             document.getElementById('quiz').style.margin = '50px 0 0 0';
         }
 
-        document.getElementById('no8').onclick = function resetPos() {
+        document.getElementById('no8').onclick = function () {
             document.getElementById('quiz').style.margin = '50px 0 0 0';
         }
 
         function moveHeart() {
-            document.getElementById("heart").style.left = '8%';
-            setTimeout(function () {
-                document.getElementById("heart").style.left = '-100px';
-            }, 1000);
-        }
-
-        function moveHeart2() {
             document.getElementById("heart").style.left = '8%';
             setTimeout(function () {
                 document.getElementById("heart").style.left = '-100px';

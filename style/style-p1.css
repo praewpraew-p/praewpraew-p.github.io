@@ -5,7 +5,7 @@ body {
 }
 
 .quiz {
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 .quiz input.step1:checked~.container .q2,
@@ -21,10 +21,6 @@ body {
 
 .quiz input.step8:checked~.container .status{
     display: block;
-}
-
-.quiz input.step8:checked.body .quiz {
-    margin-top: 50px
 }
 
 .quiz input.step8:checked~.container .score{
