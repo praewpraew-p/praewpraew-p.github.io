@@ -30,7 +30,7 @@ body {
 .quiz input.step8:checked~.container .congrats{
     display: block;
     position: fixed;
-    left: 50px;
+    left: 8px;
     bottom: 0;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .quiz input.step8:checked~.container .q label {
     background-color: #e4e4e4;
-    padding: 30px;
+    padding: 15px;
 }
 
 .quiz input.step1:checked~.container .q1,
