@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="row quiz">
+    <div class="row quiz" id="quiz">
         <input class="step1" type="radio" id="yes1" name="q1" onChange="moveHeart()" />
         <input class="step1" type="radio" id="no1" name="q1" onChange="moveSad()" />
         <input class="step2" type="radio" id="yes2" name="q2" onChange="moveHeart()" />
@@ -66,6 +66,14 @@
     </div>
 
     <script>
+        document.getElementById('yes4').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        document.getElementById('no4').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
         function moveHeart() {
             document.getElementById("heart").style.left = '8%';
             setTimeout(function () {
