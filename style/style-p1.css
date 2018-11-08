@@ -183,15 +183,17 @@ body {
 }
 
 .head1 {
-    width: 60px;
+    width: 80px;
 }
 
 .true {
     width: 15px;
+    height: auto;
 }
 
 .false {
     width: 15px;
+    height: auto;
 }
 
 .score {
