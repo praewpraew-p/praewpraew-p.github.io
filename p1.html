@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="row quiz">
+    <div class="row quiz" id="quiz">
         <input class="step1" type="radio" id="yes1" name="q1" onChange="moveSad()" />
         <input class="step1" type="radio" id="no1" name="q1" onChange="moveHeart()" />
         <input class="step2" type="radio" id="yes2" name="q2" onChange="moveHeart()" />
@@ -26,7 +26,7 @@
         <input class="step6" type="radio" id="no6" name="q6" onChange="moveSad()" />
         <input class="step7" type="radio" id="yes7" name="q7" onChange="moveHeart()" />
         <input class="step7" type="radio" id="no7" name="q7" onChange="moveSad()" />
-        <input class="step8" type="radio" id="yes8" name="q8" onChange="moveHeart()" />
+        <input class="step8" type="radio" id="yes8" name="q8" onChange="moveHeart2()" />
         <input class="step8" type="radio" id="no8" name="q8" onChange="moveSad()" />
         <div class="container">
             <div class="status">
@@ -98,7 +98,22 @@
     </div>
 
     <script>
+        document.getElementById('yes8').onclick = function resetPos() {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        document.getElementById('no8').onclick = function resetPos() {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
         function moveHeart() {
+            document.getElementById("heart").style.left = '8%';
+            setTimeout(function () {
+                document.getElementById("heart").style.left = '-100px';
+            }, 1000);
+        }
+
+        function moveHeart2() {
             document.getElementById("heart").style.left = '8%';
             setTimeout(function () {
                 document.getElementById("heart").style.left = '-100px';
