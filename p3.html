@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="row quiz">
+    <div class="row quiz" id="quiz">
         <!-- 1 -->
         <input class="step1" type="radio" id="yes1" name="q1" onChange="moveHeart()" />
         <input class="step1" type="radio" id="no1" name="q1" onChange="moveSad()" />
@@ -312,7 +312,7 @@
             </div>
             <div class="q q28">
                 <h2 class="set-h2">3 สังเกตสีปัสสาวะทุกครั้ง ว่ามีสีน้ำล้างเนื้อหรือสีออกแดงหรือไม่
-                    หากมีให้รีบมาโรงพยาบา</h2>
+                    หากมีให้รีบมาโรงพยาบาล</h2>
                 <label for="yes28" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
                 <label for="no28" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
             </div>
@@ -373,7 +373,7 @@
                 <label for="no37" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
             </div>
             <div class="q q38">
-                <h2 class="set-h2">3 ล้างมือให้สะอาดก่อนและหลังรับประทานอาหาร</h2>
+                <h2 class="set-h2">4 ล้างมือให้สะอาดก่อนและหลังรับประทานอาหาร</h2>
                 <label for="yes38" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
                 <label for="no38" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
             </div>
@@ -440,6 +440,14 @@
     </div>
 
     <script>
+        document.getElementById('yes45').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        document.getElementById('no45').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
         function moveHeart() {
             document.getElementById("heart").style.left = '8%';
             setTimeout(function () {
