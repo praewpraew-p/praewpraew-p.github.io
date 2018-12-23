@@ -1,0 +1,19 @@
+body {
+    background-color: #AAABD3;
+    font-family: Kanit;
+}
+
+.chemo {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 15% auto;
+}
+
+.explain {
+    display: block;
+    margin: 5% auto;
+    width: 98%;
+    height: auto;
+}
+

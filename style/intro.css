@@ -1,0 +1,86 @@
+.intro {
+    background-color: #FDC23E;
+    
+}
+
+.cancare {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.cancarelogo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.center { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.set {
+    display: table;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.cb {
+    display: none;
+}
+
+a {
+    color: inherit;
+}
+
+.check, .uncheck {
+    width: 40px;
+    overflow: hidden;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.check {
+    border-radius: 30px 0px 0px 30px; 
+    background: #ff7473;
+}
+
+.uncheck {
+    border-radius: 0px 30px 30px 0px;
+    background: #47b8e0;
+}
+
+.check::before, .uncheck::before {
+    content: "";
+    
+    display: inline-block;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+input[type="checkbox"].cb + .check::before {
+    transform: translateX(70px);
+    opacity: 0;
+}
+
+input[type="checkbox"].cb + .check + .uncheck::before {
+    transform: translateX(10px);
+    opacity: 1;
+}
+
+input[type="checkbox"].cb:checked + .check::before {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+input[type="checkbox"].cb:checked + .check + .uncheck::before {
+    transform: translateX(-70px);
+    opacity: 1;
+}

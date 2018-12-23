@@ -1,0 +1,59 @@
+body {
+    background-color: #FC9D9A;
+}
+
+.girls {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.teeth {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+
+.blood {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+.food {
+    width: 17%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+}
+
+.sleep {
+    width: 17%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 12%;
+}
+
+.chemical {
+    width: 17%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+.test {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+}

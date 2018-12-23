@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>post test 3</title>
+    <link rel="stylesheet" href="style/style-p3.css">
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row quiz" id="quiz">
+        <!-- 1 -->
+        <input class="step1" type="radio" id="yes1" name="q1" onChange="moveHeart()" />
+        <input class="step1" type="radio" id="no1" name="q1" onChange="moveSad()" />
+
+        <input class="step2" type="radio" id="yes2" name="q2" onChange="moveSad()" />
+        <input class="step2" type="radio" id="no2" name="q2" onChange="moveHeart()" />
+
+        <input class="step3" type="radio" id="yes3" name="q3" onChange="moveHeart()" />
+        <input class="step3" type="radio" id="no3" name="q3" onChange="moveSad()" />
+
+        <input class="step4" type="radio" id="yes4" name="q4" onChange="moveHeart()" />
+        <input class="step4" type="radio" id="no4" name="q4" onChange="moveSad()" />
+        <!-- 2 -->
+        <input class="step5" type="radio" id="yes5" name="q5" onChange="moveSad()" />
+        <input class="step5" type="radio" id="no5" name="q5" onChange="moveHeart()" />
+
+        <input class="step6" type="radio" id="yes6" name="q6" onChange="moveHeart()" />
+        <input class="step6" type="radio" id="no6" name="q6" onChange="moveSad()" />
+
+        <input class="step7" type="radio" id="yes7" name="q7" onChange="moveHeart()" />
+        <input class="step7" type="radio" id="no7" name="q7" onChange="moveSad()" />
+
+        <input class="step8" type="radio" id="yes8" name="q8" onChange="moveSad()" />
+        <input class="step8" type="radio" id="no8" name="q8" onChange="moveHeart()" />
+        <!-- 3 -->
+        <input class="step9" type="radio" id="yes9" name="q9" onChange="moveHeart()" />
+        <input class="step9" type="radio" id="no9" name="q9" onChange="moveSad()" />
+
+        <input class="step10" type="radio" id="yes10" name="q10" onChange="moveHeart()" />
+        <input class="step10" type="radio" id="no10" name="q10" onChange="moveSad()" />
+
+        <input class="step11" type="radio" id="yes11" name="q11" onChange="moveSad()" />
+        <input class="step11" type="radio" id="no11" name="q11" onChange="moveHeart()" />
+
+        <input class="step12" type="radio" id="yes12" name="q12" onChange="moveHeart()" />
+        <input class="step12" type="radio" id="no12" name="q12" onChange="moveSad()" />
+
+        <input class="step13" type="radio" id="yes13" name="q13" onChange="moveHeart()" />
+        <input class="step13" type="radio" id="no13" name="q13" onChange="moveSad()" />
+        <!-- 4 -->
+        <input class="step14" type="radio" id="yes14" name="q14" onChange="moveHeart()" />
+        <input class="step14" type="radio" id="no14" name="q14" onChange="moveSad()" />
+
+        <input class="step15" type="radio" id="yes15" name="q15" onChange="moveHeart()" />
+        <input class="step15" type="radio" id="no15" name="q15" onChange="moveSad()" />
+
+        <input class="step16" type="radio" id="yes16" name="q16" onChange="moveSad()" />
+        <input class="step16" type="radio" id="no16" name="q16" onChange="moveHeart()" />
+
+        <input class="step17" type="radio" id="yes17" name="q17" onChange="moveHeart()" />
+        <input class="step17" type="radio" id="no17" name="q17" onChange="moveSad()" />
+
+        <input class="step18" type="radio" id="yes18" name="q18" onChange="moveSad()" />
+        <input class="step18" type="radio" id="no18" name="q18" onChange="moveHeart()" />
+        <!-- 5 -->
+        <input class="step19" type="radio" id="yes19" name="q19" onChange="moveSad()" />
+        <input class="step19" type="radio" id="no19" name="q19" onChange="moveHeart()" />
+
+        <input class="step20" type="radio" id="yes20" name="q20" onChange="moveHeart()" />
+        <input class="step20" type="radio" id="no20" name="q20" onChange="moveSad()" />
+
+        <input class="step21" type="radio" id="yes21" name="q21" onChange="moveHeart()" />
+        <input class="step21" type="radio" id="no21" name="q21" onChange="moveSad()" />
+
+        <input class="step22" type="radio" id="yes22" name="q22" onChange="moveSad()" />
+        <input class="step22" type="radio" id="no22" name="q22" onChange="moveHeart()" />
+
+        <input class="step23" type="radio" id="yes23" name="q23" onChange="moveHeart()" />
+        <input class="step23" type="radio" id="no23" name="q23" onChange="moveSad()" />
+        <!-- 6 -->
+        <input class="step24" type="radio" id="yes24" name="q24" onChange="moveHeart()" />
+        <input class="step24" type="radio" id="no24" name="q24" onChange="moveSad()" />
+
+        <input class="step25" type="radio" id="yes25" name="q25" onChange="moveHeart()" />
+        <input class="step25" type="radio" id="no25" name="q25" onChange="moveSad()" />
+        <!-- 7 -->
+        <input class="step26" type="radio" id="yes26" name="q26" onChange="moveSad()" />
+        <input class="step26" type="radio" id="no26" name="q26" onChange="moveHeart()" />
+
+        <input class="step27" type="radio" id="yes27" name="q27" onChange="moveHeart()" />
+        <input class="step27" type="radio" id="no27" name="q27" onChange="moveSad()" />
+
+        <input class="step28" type="radio" id="yes28" name="q28" onChange="moveHeart()" />
+        <input class="step28" type="radio" id="no28" name="q28" onChange="moveSad()" />
+        <!-- 8 -->
+        <input class="step29" type="radio" id="yes29" name="q29" onChange="moveHeart()" />
+        <input class="step29" type="radio" id="no29" name="q29" onChange="moveSad()" />
+
+        <input class="step30" type="radio" id="yes30" name="q30" onChange="moveSad()" />
+        <input class="step30" type="radio" id="no30" name="q30" onChange="moveHeart()" />
+
+        <input class="step31" type="radio" id="yes31" name="q31" onChange="moveHeart()" />
+        <input class="step31" type="radio" id="no31" name="q31" onChange="moveSad()" />
+        <!-- 9 -->
+        <input class="step32" type="radio" id="yes32" name="q32" onChange="moveHeart()" />
+        <input class="step32" type="radio" id="no32" name="q32" onChange="moveSad()" />
+
+        <input class="step33" type="radio" id="yes33" name="q33" onChange="moveHeart()" />
+        <input class="step33" type="radio" id="no33" name="q33" onChange="moveSad()" />
+
+        <input class="step34" type="radio" id="yes34" name="q34" onChange="moveHeart()" />
+        <input class="step34" type="radio" id="no34" name="q34" onChange="moveSad()" />
+        <!-- 10 -->
+        <input class="step35" type="radio" id="yes35" name="q35" onChange="moveHeart()" />
+        <input class="step35" type="radio" id="no35" name="q35" onChange="moveSad()" />
+
+        <input class="step36" type="radio" id="yes36" name="q36" onChange="moveHeart()" />
+        <input class="step36" type="radio" id="no36" name="q36" onChange="moveSad()" />
+
+        <input class="step37" type="radio" id="yes37" name="q37" onChange="(moveSad)" />
+        <input class="step37" type="radio" id="no37" name="q37" onChange="moveHeart()" />
+
+        <input class="step38" type="radio" id="yes38" name="q38" onChange="moveHeart()" />
+        <input class="step38" type="radio" id="no38" name="q38" onChange="moveSad()" />
+        <!-- 11 -->
+        <input class="step39" type="radio" id="yes39" name="q39" onChange="moveHeart()" />
+        <input class="step39" type="radio" id="no39" name="q39" onChange="moveSad()" />
+
+        <input class="step40" type="radio" id="yes40" name="q40" onChange="moveHeart()" />
+        <input class="step40" type="radio" id="no40" name="q40" onChange="moveSad()" />
+
+        <input class="step41" type="radio" id="yes41" name="q41" onChange="moveSad()" />
+        <input class="step41" type="radio" id="no41" name="q41" onChange="moveHeart()" />
+        <!-- 12 -->
+        <input class="step42" type="radio" id="yes42" name="q42" onChange="moveHeart()" />
+        <input class="step42" type="radio" id="no42" name="q42" onChange="moveSad()" />
+
+        <input class="step43" type="radio" id="yes43" name="q43" onChange="moveHeart()" />
+        <input class="step43" type="radio" id="no43" name="q43" onChange="moveSad()" />
+
+        <input class="step44" type="radio" id="yes44" name="q44" onChange="moveSad()" />
+        <input class="step44" type="radio" id="no44" name="q44" onChange="moveHeart()" />
+
+        <input class="step45" type="radio" id="yes45" name="q45" onChange="moveHeart()" />
+        <input class="step45" type="radio" id="no45" name="q45" onChange="moveSad()" />
+
+        <div class="container">
+            <div class="status">
+                <h2 id="set-h2">สรุปคะแนน</h2>
+            </div>
+            <!-- 1 -->
+            <div class="q q1">
+                <img class="head1" src="./img-for-post-test/sushi.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อมีอาการคลื่นไส้ อาเจียน</h1>
+                <h2 class="set-h2">1 ควรรับประทานผลไม้ที่มีรสเปรี้ยว เพื่อลดอาการคลื่นไส้ อาเจียน</h2>
+                <label for="yes1" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no1" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q2">
+                <h2 class="set-h2">2 ไม่ควรรับประทานอาหารข้นหรือแห้ง ๆ เช่น แครกเกอร์ ขนมปัง วุ้น เยลลี่</h2>
+                <label for="yes2" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no2" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q3">
+                <h2 class="set-h2">3 หลังรับประทานอาหาร ควรนอนศีรษะสูง</h2>
+                <label for="yes3" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no3" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q4">
+                <h2 class="set-h2">4 บ้วนปากด้วยน้ำอุ่น หรือน้ำธรรมดาหลังอาเจียน</h2>
+                <label for="yes4" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no4" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 2 -->
+            <div class="q q5">
+                <img class="head1" src="./img-for-post-test/yawning.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อเยื่อบุช่องปากอักเสบ</h1>
+                <h2 class="set-h2">1 แปรงฟันบ่อย ๆ เพื่อความสะอาดของช่องปาก</h2>
+                <label for="yes5" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no5" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q6">
+                <h2 class="set-h2">2 ดื่มน้ำอย่างน้อยวันละ 6-8 แก้ว เพื่อรักษาความชุ่มชื้นของปาก</h2>
+                <label for="yes6" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no6" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q7">
+                <h2 class="set-h2">3 หลีกเลี่ยงการรับประทานอาหารที่มีรสจัด และผลไม้ที่มีรสเปรี้ยวจัด เช่น อาหารประเภทยำ
+                    ส้ม มะนาว</h2>
+                <label for="yes7" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no7" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q8">
+                <h2 class="set-h2">4 กรณีที่มียาทาแผลเพื่อลดความปวด ให้ทาก่อนรับประทานอาหารอย่างน้อย 15 นาที</h2>
+                <label for="yes8" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no8" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 3 -->
+            <div class="q q9">
+                <img class="head1" src="./img-for-post-test/skin.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อผมร่วง</h1>
+                <h2 class="set-h2">1 ควรใช้แชมพูสูตรอ่อนโยนหรือแชมพูสำหรับเด็กในการสระผม</h2>
+                <label for="yes9" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no9" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q10">
+                <h2 class="set-h2">2 ใช้หวีซี่ห่าง ๆ และอย่าหวีผมบ่อย</h2>
+                <label for="yes10" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no10" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q11">
+                <h2 class="set-h2">3 เป่าผมให้แห้งด้วยลมร้อนทุกครั้งหลังสระผม</h2>
+                <label for="yes11" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no11" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q12">
+                <h2 class="set-h2">4 ไม่ควรดัดผมหรือย้อมผม</h2>
+                <label for="yes12" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no12" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q13">
+                <h2 class="set-h2">5 สามารถใช้วิก สวมหมวก หรือโพกผมให้สวยงามได้</h2>
+                <label for="yes13" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no13" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 4 -->
+            <div class="q q14">
+                <img class="head1" src="./img-for-post-test/sick.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อมีไข้</h1>
+                <h2 class="set-h2">1 ควรเช็ดตัวลดไข้ เพื่อระบายความร้อนออกจากร่างกาย</h2>
+                <label for="yes14" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no14" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q15">
+                <h2 class="set-h2">2 หลังเช็ดตัวแล้วไข้ไม่ลดลง สามารถรับประทานยาพาราเซตามอลเพื่อลดไข้ได้</h2>
+                <label for="yes15" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no15" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q16">
+                <h2 class="set-h2">3 ไม่ควรดื่มน้ำมาก ๆ เพราะจะทำให้ร่างกายหนาวสั่นได้</h2>
+                <label for="yes16" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no16" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q17">
+                <h2 class="set-h2">4 ควรใส่เสื้อผ้าบาง ๆ หรือทำจากผ้าฝ้าย</h2>
+                <label for="yes17" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no17" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q18">
+                <h2 class="set-h2">5 ควรนอนห่มผ้าหนา ๆ</h2>
+                <label for="yes18" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no18" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 5 -->
+            <div class="q q19">
+                <img class="head1" src="./img-for-post-test/sick2.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อติดเชื้อง่าย</h1>
+                <h2 class="set-h2">1 ควรบ้วนปากด้วยน้ำยาบ้วนปากที่มีส่วนผสมจากแอลกอฮอล์</h2>
+                <label for="yes19" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no19" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q20">
+                <h2 class="set-h2">2 อาบน้ำและแปรงฟัน อย่างน้อยวันละ 2 ครั้ง</h2>
+                <label for="yes20" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no20" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q21">
+                <h2 class="set-h2">3 ดูแลความสะอาดของเครื่องนอน ควรเปลี่ยนผ้าปูที่นอนอย่างน้อยสัปดาห์ละ 1 ครั้ง</h2>
+                <label for="yes21" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no21" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q22">
+                <h2 class="set-h2">4 ควรไปสถานที่แออัดบ่อย ๆ เช่น ตลาดนัด</h2>
+                <label for="yes22" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no22" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q23">
+                <h2 class="set-h2">5 ไม่ควรเข้าใกล้ผู้ที่มีโรคติดต่อ เช่น ไข้หวัด ตาแดง หัด อีสุกอีใส </h2>
+                <label for="yes23" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no23" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 6 -->
+            <div class="q q24">
+                <img class="head1" src="./img-for-post-test/faint.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อมีอาการอ่อนล้า</h1>
+                <h2 class="set-h2">1 พักผ่อนให้เพียงพออย่างน้อยวันละ 8-10 ชั่วโมง</h2>
+                <label for="yes24" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no24" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q25">
+                <h2 class="set-h2">2 ควรรับประทานอาหารประเภทโปรตีนให้มากขึ้น เช่น อาหารที่มีเนื้อสัตว์ ไข่ ถั่ว นม
+                    เป็นส่วนประกอบ</h2>
+                <label for="yes25" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no25" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 7 -->
+            <div class="q q26">
+                <img class="head1" src="./img-for-post-test/toilet.png">
+                <h1 class="set-h1">การดูแลตนเองกระเพาะปัสสาวะอักเสบ</h1>
+                <h2 class="set-h2">1 กลั้นปัสสาวะ</h2>
+                <label for="yes26" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no26" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q27">
+                <h2 class="set-h2">2 ควรดื่มน้ำมาก ๆ</h2>
+                <label for="yes27" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no27" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q28">
+                <h2 class="set-h2">3 สังเกตสีปัสสาวะทุกครั้ง ว่ามีสีน้ำล้างเนื้อหรือสีออกแดงหรือไม่
+                    หากมีให้รีบมาโรงพยาบาล</h2>
+                <label for="yes28" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no28" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 8 -->
+            <div class="q q29">
+                <img class="head1" src="./img-for-post-test/blood.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อเลือดออกง่าย</h1>
+                <h2 class="set-h2">1 หมั่นสังเกตอาการเลือดออก ได้แก่ จุดเลือดออกกระจายใต้ผิวหนัง เลือดกำเดาไหล
+                    เลือดออกตามไรฟัน ถ่ายดำ ปัสสาวะสีโค้ก</h2>
+                <label for="yes29" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no29" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q30">
+                <h2 class="set-h2">2 สามารถเล่นกีฬาที่มีการปะทะได้ เช่น ฟุตบอล บาสเกตบอล</h2>
+                <label for="yes30" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no30" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q31">
+                <h2 class="set-h2">3 หากมีเกล็ดเลือดต่ำมากให้ใช้แปรงสีฟันขนอ่อนนุ่ม
+                    งดแปรงฟันหากมีเลือดออกตามไรฟันหรือมีแผลในช่องปาก</h2>
+                <label for="yes31" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no31" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 9 -->
+            <div class="q q32">
+                <img class="head1" src="./img-for-post-test/puking.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อเบื่ออาหาร</h1>
+                <h2 class="set-h2">1 รับประทานอาหารครั้งละน้อย ๆ แต่บ่อยครั้ง</h2>
+                <label for="yes32" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no32" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q33">
+                <h2 class="set-h2">2 รับประทานอาหารเย็น ๆ มีรสเปรี้ยว เช่น ไอศกรีมรสมะนาว รสส้ม เพื่อเพิ่มความอยากอาหาร</h2>
+                <label for="yes33" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no33" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q34">
+                <h2 class="set-h2">3 ดื่มนมหรือรับประทานอาหารเสริมระหว่างมื้อ</h2>
+                <label for="yes34" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no34" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 10 -->
+            <div class="q q35">
+                <img class="head1" src="./img-for-post-test/stomach.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อท้องเสีย</h1>
+                <h2 class="set-h2">1 รับประทานอาหารครั้งละน้อย ๆ แต่บ่อยครั้ง</h2>
+                <label for="yes35" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no35" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q36">
+                <h2 class="set-h2">2 รับประทานอาหารเหลว อาหารอ่อนย่อยง่าย เช่น ข้าวต้ม โจ๊ก</h2>
+                <label for="yes36" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no36" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q37">
+                <h2 class="set-h2">3 ไม่ควรดื่มน้ำเกลือแร่เมื่อมีอาการท้องเสีย</h2>
+                <label for="yes37" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no37" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q38">
+                <h2 class="set-h2">4 ล้างมือให้สะอาดก่อนและหลังรับประทานอาหาร</h2>
+                <label for="yes38" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no38" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 11 -->
+            <div class="q q39">
+                <img class="head1" src="./img-for-post-test/stomach2.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อท้องผูก</h1>
+                <h2 class="set-h2">1 รับประทานอาหารที่มีกากใยให้มากขึ้น เช่น ข้าวกล้องหรือข้าวซ้อมมือ ผักต้ม ผักลวก
+                    มะละกอสุก กล้วยน้ำหว้า</h2>
+                <label for="yes39" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no39" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q40">
+                <h2 class="set-h2">2 ดื่มน้ำมาก ๆ อย่างน้อยวันละ 8-10 แก้ว</h2>
+                <label for="yes40" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no40" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q41">
+                <h2 class="set-h2">3 สามารถสวนอุจจาระเองได้</h2>
+                <label for="yes41" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no41" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <!-- 12 -->
+            <div class="q q42">
+                <img class="head1" src="./img-for-post-test/nail-clippers.png">
+                <h1 class="set-h1">การดูแลตนเองเมื่อผิวหนังและเล็บดำคล้ำ</h1>
+                <h2 class="set-h2">1 ทาครีมหรือโลชั่น เพื่อเพิ่มความชุ่มชื้นให้ผิว</h2>
+                <label for="yes42" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no42" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q43">
+                <h2 class="set-h2">2 หลีกเลี่ยงการถูกแสงแดด ควรทาครีมกันแดดหรือกางร่มถ้าต้องการออกแดด</h2>
+                <label for="yes43" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no43" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q44">
+                <h2 class="set-h2">3 สวมเสื้อแขนสั้น ขาสั้นได้ หลังทาครีมกันแดดแล้ว</h2>
+                <label for="yes44" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no44" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q45">
+                <h2 class="set-h2">4 ตัดเล็บให้สั้น และดูแลให้สะอาดอยู่เสมอ</h2>
+                <label for="yes45" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no45" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+
+
+            <div class="score">
+                <h3 id="set-h3">คะแนนที่ได้ </h3>
+            </div>
+
+            <div class="congrats">
+                <img src="./img-for-post-test/dog.png" style="width:90px;">
+            </div>
+
+            <div id="heart" class="heart-set">
+                <img src="./img-for-post-test/like.png" style="width:70px;">
+            </div>
+
+            <div id="sad" class="sad-set">
+                <img src="./img-for-post-test/sad.png" style="width:70px;">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('yes45').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        document.getElementById('no45').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        function moveHeart() {
+            document.getElementById("heart").style.left = '8%';
+            setTimeout(function () {
+                document.getElementById("heart").style.left = '-100px';
+            }, 1000);
+        }
+
+        function moveSad() {
+            document.getElementById("sad").style.left = '8%';
+            setTimeout(function () {
+                document.getElementById("sad").style.left = '-100px';
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>

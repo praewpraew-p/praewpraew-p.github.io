@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>post test 2</title>
+    <link rel="stylesheet" href="style/style-p2.css">
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row quiz" id="quiz">
+        <input class="step1" type="radio" id="yes1" name="q1" onChange="moveHeart()" />
+        <input class="step1" type="radio" id="no1" name="q1" onChange="moveSad()" />
+        <input class="step2" type="radio" id="yes2" name="q2" onChange="moveHeart()" />
+        <input class="step2" type="radio" id="no2" name="q2" onChange="moveSad()" />
+        <input class="step3" type="radio" id="yes3" name="q3" onChange="moveSad()" />
+        <input class="step3" type="radio" id="no3" name="q3" onChange="moveHeart()" />
+        <input class="step4" type="radio" id="yes4" name="q4" onChange="moveHeart()" />
+        <input class="step4" type="radio" id="no4" name="q4" onChange="moveSad()" />
+        <div class="container">
+            <div class="status">
+                <h2 id="set-h2">Total Score</h2>
+            </div>
+            <div class="q q1">
+                <img class="head1" src="./img-for-post-test/medicine.png">
+                <h1 class="set-h1">Practice as chemotherapy</h1>
+                <h2 class="set-h2">1 Sleep in a comfortable position. Avoid moving or lifting arm received chemotherapy.</h2>
+                <label for="yes1" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no1" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q2">
+                <h2 class="set-h2">2 When there is a pain, swelling, heat around in area inject to chemotherapy. Notify your Physician or Nurse immediately.</h2>
+                <label for="yes2" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no2" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q3">
+                <h2 class="set-h2">3 In the case of leakage at area inject to chemotherapy. Lift the leakage of fluid to lower level than the heart.</h2>
+                <label for="yes3" class="wrong"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no3" class="correct"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+            <div class="q q4">
+                <h2 class="set-h2">4 Observe the droplet rate of chemotherapy. If the droplet rate of chemotherapy is uneven please notify physician or nurse.</h2>
+                <label for="yes4" class="correct"><img class="true" src="./img-for-post-test/true.png"></label>
+                <label for="no4" class="wrong"><img class="false" src="./img-for-post-test/false.png"></label>
+            </div>
+
+            <div class="score">
+                <h3 id="set-h3">Score </h3>
+            </div>
+
+            <div class="congrats">
+                <img src="./img-for-post-test/deer.png" style="width:90px;">
+            </div>
+
+            <div id="heart" class="heart-set">
+                <img src="./img-for-post-test/like.png" style="width:70px;">
+            </div>
+
+            <div id="sad" class="sad-set">
+                <img src="./img-for-post-test/sad.png" style="width:70px;">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('yes4').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        document.getElementById('no4').onclick = function () {
+            document.getElementById('quiz').style.margin = '50px 0 0 0';
+        }
+
+        function moveHeart() {
+            document.getElementById("heart").style.left = '8%';
+            setTimeout(function () {
+                document.getElementById("heart").style.left = '-100px';
+            }, 1000);
+        }
+
+        function moveSad() {
+            document.getElementById("sad").style.left = '8%';
+            setTimeout(function () {
+                document.getElementById("sad").style.left = '-100px';
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>

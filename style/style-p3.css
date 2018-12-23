@@ -1,0 +1,354 @@
+html,
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(255, 255, 151);
+}
+
+.quiz {
+    margin-top: 40%;
+}
+
+.quiz input.step1:checked~.container .q2,
+.quiz input.step2:checked~.container .q3,
+.quiz input.step3:checked~.container .q4,
+.quiz input.step4:checked~.container .q5,
+.quiz input.step5:checked~.container .q6,
+.quiz input.step6:checked~.container .q7,
+.quiz input.step7:checked~.container .q8,
+.quiz input.step8:checked~.container .q9,
+.quiz input.step9:checked~.container .q10,
+.quiz input.step10:checked~.container .q11,
+.quiz input.step11:checked~.container .q12,
+.quiz input.step12:checked~.container .q13,
+.quiz input.step13:checked~.container .q14,
+.quiz input.step14:checked~.container .q15,
+.quiz input.step15:checked~.container .q16,
+.quiz input.step16:checked~.container .q17,
+.quiz input.step17:checked~.container .q18,
+.quiz input.step18:checked~.container .q19,
+.quiz input.step19:checked~.container .q20,
+.quiz input.step20:checked~.container .q21,
+.quiz input.step21:checked~.container .q22,
+.quiz input.step22:checked~.container .q23,
+.quiz input.step23:checked~.container .q24,
+.quiz input.step24:checked~.container .q25,
+.quiz input.step25:checked~.container .q26,
+.quiz input.step26:checked~.container .q27,
+.quiz input.step27:checked~.container .q28,
+.quiz input.step28:checked~.container .q29,
+.quiz input.step29:checked~.container .q30,
+.quiz input.step30:checked~.container .q31,
+.quiz input.step31:checked~.container .q32,
+.quiz input.step32:checked~.container .q33,
+.quiz input.step33:checked~.container .q34,
+.quiz input.step34:checked~.container .q35,
+.quiz input.step35:checked~.container .q36,
+.quiz input.step36:checked~.container .q37,
+.quiz input.step37:checked~.container .q38,
+.quiz input.step38:checked~.container .q39,
+.quiz input.step39:checked~.container .q40,
+.quiz input.step40:checked~.container .q41,
+.quiz input.step41:checked~.container .q42,
+.quiz input.step42:checked~.container .q43,
+.quiz input.step43:checked~.container .q44,
+.quiz input.step44:checked~.container .q45 {
+    position: relative;
+    left: 0;
+}
+
+.quiz input.step45:checked~.container .status{
+    display: block;
+}
+
+.quiz input.step45:checked~.container .score{
+    display: block;
+}
+
+.quiz input.step45:checked~.container .congrats{
+    display: block;
+    position: fixed;
+    left: 8px;
+    bottom: 0;
+}
+
+.quiz input.step45:checked~.container .q {
+    position: relative !important;
+    left: 0 !important;
+    opacity: 1 !important;
+}
+
+.quiz input.step45:checked~.container .q label {
+    background-color: #e4e4e4;
+}
+
+.quiz input.step1:checked~.container .q1,
+.quiz input.step2:checked~.container .q2,
+.quiz input.step3:checked~.container .q3,
+.quiz input.step4:checked~.container .q4,
+.quiz input.step5:checked~.container .q5,
+.quiz input.step6:checked~.container .q6,
+.quiz input.step7:checked~.container .q7,
+.quiz input.step8:checked~.container .q8,
+.quiz input.step9:checked~.container .q9,
+.quiz input.step10:checked~.container .q10,
+.quiz input.step11:checked~.container .q11,
+.quiz input.step12:checked~.container .q12,
+.quiz input.step13:checked~.container .q13,
+.quiz input.step14:checked~.container .q14,
+.quiz input.step15:checked~.container .q15,
+.quiz input.step16:checked~.container .q16,
+.quiz input.step17:checked~.container .q17,
+.quiz input.step18:checked~.container .q18,
+.quiz input.step19:checked~.container .q19,
+.quiz input.step20:checked~.container .q20,
+.quiz input.step21:checked~.container .q21,
+.quiz input.step22:checked~.container .q22,
+.quiz input.step23:checked~.container .q23,
+.quiz input.step24:checked~.container .q24,
+.quiz input.step25:checked~.container .q25,
+.quiz input.step26:checked~.container .q26,
+.quiz input.step27:checked~.container .q27,
+.quiz input.step28:checked~.container .q28,
+.quiz input.step29:checked~.container .q29,
+.quiz input.step30:checked~.container .q30,
+.quiz input.step31:checked~.container .q31,
+.quiz input.step32:checked~.container .q32,
+.quiz input.step33:checked~.container .q33,
+.quiz input.step34:checked~.container .q34,
+.quiz input.step35:checked~.container .q35,
+.quiz input.step36:checked~.container .q36,
+.quiz input.step37:checked~.container .q37,
+.quiz input.step38:checked~.container .q38,
+.quiz input.step39:checked~.container .q39,
+.quiz input.step40:checked~.container .q40,
+.quiz input.step41:checked~.container .q41,
+.quiz input.step42:checked~.container .q42,
+.quiz input.step43:checked~.container .q43,
+.quiz input.step44:checked~.container .q44,
+.quiz input.step45:checked~.container .q45 {
+    position: absolute;
+    opacity: 0;
+}
+
+.quiz .score {
+    margin-top: 40px;
+}
+
+.quiz .score h3:after {
+    content: counter(score);
+}
+
+.quiz .container {
+    margin: 0 auto;
+    text-align: center;
+    counter-reset: score;
+}
+
+.quiz .status{
+    display: none;
+}
+
+.quiz .score{
+    display: none;
+}
+
+.quiz .congrats {
+    display: none;
+    left: 0;
+}
+
+.quiz label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffab10;
+    color: #fff;
+    margin: 0 25px;
+    text-align: center;
+    display: inline-block;
+    transition: opacity .5s;
+}
+
+.quiz label:hover {
+    opacity: .7;
+}
+
+.quiz .q {
+    margin-bottom: 40px;
+    position: absolute;
+    left: -2000px;
+    transition: all 0.8s cubic-bezier(0.44, 0.25, 0.65, 0.38);
+    width: 100%;
+}
+
+.quiz .q1 {
+    position: relative;
+    left: 0;
+}
+
+.quiz input {
+    display: none;
+}
+
+.quiz .status {
+    margin-bottom: 20px;
+}
+
+.heart-set, .sad-set {
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transition: left 1s;
+}
+
+.quiz input[id=yes1].step1:checked~.container .q1 label.correct,
+.quiz input[id=no2].step2:checked~.container .q2 label.correct,
+.quiz input[id=yes3].step3:checked~.container .q3 label.correct,
+.quiz input[id=yes4].step4:checked~.container .q4 label.correct,
+.quiz input[id=no5].step5:checked~.container .q5 label.correct,
+.quiz input[id=yes6].step6:checked~.container .q6 label.correct,
+.quiz input[id=yes7].step7:checked~.container .q7 label.correct,
+.quiz input[id=no8].step8:checked~.container .q8 label.correct,
+.quiz input[id=yes9].step9:checked~.container .q9 label.correct,
+.quiz input[id=yes10].step10:checked~.container .q10 label.correct,
+.quiz input[id=no11].step11:checked~.container .q11 label.correct,
+.quiz input[id=yes12].step12:checked~.container .q12 label.correct,
+.quiz input[id=yes13].step13:checked~.container .q13 label.correct,
+.quiz input[id=yes14].step14:checked~.container .q14 label.correct,
+.quiz input[id=yes15].step15:checked~.container .q15 label.correct,
+.quiz input[id=no16].step16:checked~.container .q16 label.correct,
+.quiz input[id=yes17].step17:checked~.container .q17 label.correct,
+.quiz input[id=no18].step18:checked~.container .q18 label.correct,
+.quiz input[id=no19].step19:checked~.container .q19 label.correct,
+.quiz input[id=yes20].step20:checked~.container .q20 label.correct,
+.quiz input[id=yes21].step21:checked~.container .q21 label.correct,
+.quiz input[id=no22].step22:checked~.container .q22 label.correct,
+.quiz input[id=yes23].step23:checked~.container .q23 label.correct,
+.quiz input[id=yes24].step24:checked~.container .q24 label.correct,
+.quiz input[id=yes25].step25:checked~.container .q25 label.correct,
+.quiz input[id=no26].step26:checked~.container .q26 label.correct,
+.quiz input[id=yes27].step27:checked~.container .q27 label.correct,
+.quiz input[id=yes28].step28:checked~.container .q28 label.correct,
+.quiz input[id=yes29].step29:checked~.container .q29 label.correct,
+.quiz input[id=no30].step30:checked~.container .q30 label.correct,
+.quiz input[id=yes31].step31:checked~.container .q31 label.correct,
+.quiz input[id=yes32].step32:checked~.container .q32 label.correct,
+.quiz input[id=yes33].step33:checked~.container .q33 label.correct,
+.quiz input[id=yes34].step34:checked~.container .q34 label.correct,
+.quiz input[id=yes35].step35:checked~.container .q35 label.correct,
+.quiz input[id=yes36].step36:checked~.container .q36 label.correct,
+.quiz input[id=no37].step37:checked~.container .q37 label.correct,
+.quiz input[id=yes38].step38:checked~.container .q38 label.correct,
+.quiz input[id=yes39].step39:checked~.container .q39 label.correct,
+.quiz input[id=yes40].step40:checked~.container .q40 label.correct,
+.quiz input[id=no41].step41:checked~.container .q41 label.correct,
+.quiz input[id=yes42].step42:checked~.container .q42 label.correct,
+.quiz input[id=yes43].step43:checked~.container .q43 label.correct,
+.quiz input[id=no44].step44:checked~.container .q44 label.correct,
+.quiz input[id=yes45].step45:checked~.container .q45 label.correct{
+    background-color: #379600;
+    counter-increment: score;
+    color: #fff;
+}
+
+.quiz input[id=no1].step1:checked~.container .q1 label.wrong,
+.quiz input[id=yes2].step2:checked~.container .q2 label.wrong,
+.quiz input[id=no3].step3:checked~.container .q3 label.wrong,
+.quiz input[id=no4].step4:checked~.container .q4 label.wrong,
+.quiz input[id=yes5].step5:checked~.container .q5 label.wrong,
+.quiz input[id=no6].step6:checked~.container .q6 label.wrong,
+.quiz input[id=no7].step7:checked~.container .q7 label.wrong,
+.quiz input[id=yes8].step8:checked~.container .q8 label.wrong,
+.quiz input[id=no9].step9:checked~.container .q9 label.wrong,
+.quiz input[id=no10].step10:checked~.container .q10 label.wrong,
+.quiz input[id=yes11].step11:checked~.container .q11 label.wrong,
+.quiz input[id=no12].step12:checked~.container .q12 label.wrong,
+.quiz input[id=no13].step13:checked~.container .q13 label.wrong,
+.quiz input[id=no14].step14:checked~.container .q14 label.wrong,
+.quiz input[id=no15].step15:checked~.container .q15 label.wrong,
+.quiz input[id=yes16].step16:checked~.container .q16 label.wrong,
+.quiz input[id=no17].step17:checked~.container .q17 label.wrong,
+.quiz input[id=yes18].step18:checked~.container .q18 label.wrong,
+.quiz input[id=yes19].step19:checked~.container .q19 label.wrong,
+.quiz input[id=no20].step20:checked~.container .q20 label.wrong,
+.quiz input[id=no21].step21:checked~.container .q21 label.wrong,
+.quiz input[id=yes22].step22:checked~.container .q22 label.wrong,
+.quiz input[id=no23].step23:checked~.container .q23 label.wrong,
+.quiz input[id=no24].step24:checked~.container .q24 label.wrong,
+.quiz input[id=no25].step25:checked~.container .q25 label.wrong,
+.quiz input[id=yes26].step26:checked~.container .q26 label.wrong,
+.quiz input[id=no27].step27:checked~.container .q27 label.wrong,
+.quiz input[id=no28].step28:checked~.container .q28 label.wrong,
+.quiz input[id=no29].step29:checked~.container .q29 label.wrong,
+.quiz input[id=yes30].step30:checked~.container .q30 label.wrong,
+.quiz input[id=no31].step31:checked~.container .q31 label.wrong,
+.quiz input[id=no32].step32:checked~.container .q32 label.wrong,
+.quiz input[id=no33].step33:checked~.container .q33 label.wrong,
+.quiz input[id=no34].step34:checked~.container .q34 label.wrong,
+.quiz input[id=no35].step35:checked~.container .q35 label.wrong,
+.quiz input[id=no36].step36:checked~.container .q36 label.wrong,
+.quiz input[id=yes37].step37:checked~.container .q37 label.wrong,
+.quiz input[id=no38].step38:checked~.container .q38 label.wrong,
+.quiz input[id=no39].step39:checked~.container .q39 label.wrong,
+.quiz input[id=no40].step40:checked~.container .q40 label.wrong,
+.quiz input[id=yes41].step41:checked~.container .q41 label.wrong,
+.quiz input[id=no42].step42:checked~.container .q42 label.wrong,
+.quiz input[id=no43].step43:checked~.container .q43 label.wrong,
+.quiz input[id=yes44].step44:checked~.container .q44 label.wrong,
+.quiz input[id=no45].step45:checked~.container .q45 label.wrong{
+    background-color: #cc2d2b;
+    color: #fff;
+}
+
+.set-h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.set-h2, #set-h2 {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: normal;
+}
+
+#set-h2 {
+    font-size: 40px;
+    color: #eb6e30;
+    font-weight: 700;
+    text-shadow: 3px 1px 0px white, 5px 2px 0px black;
+}
+
+#set-h3 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-weight: normal;
+}
+
+.head1 {
+    width: 80px;
+}
+
+.true {
+    vertical-align: middle;
+    margin-top: 17px;
+    width: 15px;
+    height: 15px;
+}
+
+.false {
+    vertical-align: middle;
+    margin-top: 17px;
+    width: 15px;
+    height: 15px;
+}
+
+.score {
+    background-color: #ffe975;
+    padding: 5px 0 5px 0;
+}
